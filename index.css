@@ -1,0 +1,208 @@
+.header {
+    background: url(./img/182428240217.jpg);
+    height: 100vh;
+
+}
+
+.p {
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-top: 120px;
+    font-family: "Poppins", sans-serif;
+
+
+}
+
+.b {
+    margin-left: 100px;
+}
+.b1 {
+  margin-left: 140px;
+}
+.b2{
+  margin-left: 45px;
+
+}
+
+.services {
+    background-color: black;
+    height: 630px;
+    margin-top: -47px;
+}
+.works {
+  background-color: black;
+  height: 630px;
+  margin-top: -47px;
+}
+.more {
+  background-color: black;
+  height: 680px;
+  margin-top: -47px;
+}
+.client{
+  background-color: black;
+  margin-top: -47px;
+  height: 770px;
+}
+
+
+.ser {
+    font-family: "Poppins", sans-serif;
+
+    
+}
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+.bb{
+    font-weight: 600;
+    font-size: 20px;
+    
+}  
+.flex{
+  justify-content: space-evenly;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 80px;
+  height: 300px;
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #ccc;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.social-media-icons a {
+  margin-right: 20px;
+}
+
+.social-media-icons i {
+  font-size: 24px;
+}
+
+.copyright {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+
+}
+@media (max-width: 790px){
+  .footer ul {
+    display: none;
+    
+  }
+  .footer h5 {
+    display: none;
+  
+  }
+  .u{
+    display: none;
+  }
+  .text{
+    font-size: 15px;
+    margin-top: 200px;
+    align-items: center;
+    text-align: justify;
+    margin-left: -40px;
+  }
+  .services{
+    margin-bottom: -290px;
+    height: 1950px;
+  
+  }
+  .client{
+    margin-top: -40px;
+    height: 1000px;
+    
+  }
+  .more{
+    height: 1000px;
+    margin-top:-100px;
+  }
+  .cliimg{
+    width: 60%;
+  }
+  .row1{
+    text-align: justify;
+    font-size: 15px;
+    margin-left: -10px;
+  }
+  .more{
+    height: 700px;
+    margin-top: 300px;
+  }
+  .works{
+    display: none;
+  }
+  .header{
+    height: 110vh;
+  }
+
+}
+
+
+
